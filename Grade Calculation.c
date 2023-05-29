@@ -13,7 +13,7 @@ int main(){
 printf("Digite sua segunda nota: ");
 scanf("%f", &n2);
 if (n2<0 || n2>10) {
-     printf ("Nota Inválida!");
+     printf ("Nota Invalida!");
      return 0;
 }
 soma=(n1+n2);
@@ -21,13 +21,13 @@ media=(soma/2);
 
 if (media>=6) {
      printf("\n");
-     printf("Sua média é: %0.1f", media);
+     printf("Sua média: %0.1f", media);
      printf("\n");
      printf("Parabéns!!! Você foi aprovado!! :)");
      return 0;
 }
 else
     printf("\n");
-    printf("Sua média é: %0.1f \n", media);
-    printf("Que pena, você NÃO foi aprovado :(");
+    printf("Sua média: %0.1f \n", media);
+    printf("Que pena, você NAO foi aprovado :(");
 }
