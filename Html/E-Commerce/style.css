@@ -1,0 +1,21 @@
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+}
+
+.cabeçalho-link a{
+    color: #111;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.cabeçalho-link a:hover{
+    color: #c8815f;
+}
+
+.last-text{
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+}

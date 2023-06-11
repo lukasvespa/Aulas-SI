@@ -1,0 +1,63 @@
+/*DOCTYPE css*/
+body{
+	background-color: blue;
+}
+.almighty{
+	background-image: url('imagens/Tecnologia.jpg');
+}
+.title{
+	font-family: "Lucida Handwriting", Cursiva;
+	text-align: center;
+	Color: #0680a5;
+	font-size: 100px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cate{
+	font-family: "Lucida Handwriting", Cursiva;
+	text-align: center;
+	Color: #0017e2;
+	font-size: 20px;
+	background-color: rgb(2, 79, 143); 
+}
+
+.product{
+	background-color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 7%; /*Cria margem na base de cada coluna*/
+}
+	
+		.prodimage img{
+			margin-left: auto;
+			margin-right: auto;
+			height: 300px;
+			width: 300px;
+		}
+	
+	
+		.prodname{
+			font-family: Verdana, serif;
+			font-size: 200%;
+			margin-left: auto;
+			text-align: left;
+		}	
+		.prodprice{
+			font-family: Times, serif;
+			font-size: 270%;	
+			margin-left: auto;
+			text-align: left;			
+		}
+		
+.rodape{
+	background-color: #000000;
+}
+
+.grid{
+	background-color: rgb(15, 44, 139)
+}
+
+.border p-2{
+	background-color: #9999
+} 
