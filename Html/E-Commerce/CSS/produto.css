@@ -1,0 +1,43 @@
+
+*{margin: 0; padding: 0;}
+html,body{ height: 100%;background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);}
+
+/*------------------------------------------------------------PRODUTOS-----------------------------------*/
+
+#produto{margin-top: 1.5%;
+    margin-left: 2%;
+    float: left;
+    height: 87%;
+    width: 35%;
+    background-color: white;}
+    #nomeproduto{margin-top: 2%;}
+        #tabela{margin-top: 20%;}
+            #preço{margin-top: 5%;
+            font-size: 30px;}
+
+/*------------------------------------------------------------INFORMAÇOES-------------------------------------*/
+
+#info{float: left;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    height: 87%;
+    width:38%; 
+    background-color: white;}
+    #informaçoes{margin-top: 2%;}
+
+/*-----------------------------------------------------------COMPRAS------------------------------------------*/
+
+#compra{float: right;
+    margin-top: 1.5%;
+    margin-left:0%;
+    margin-right:1%;
+    height: 87%;
+    width: 20%;
+    background-color: white;}    
+    #realizarcompra{margin-top: 2%;}
+        #botaocomprar{margin-top: 4%;
+            border-style: solid;
+            border-radius: 15px;
+            background-color: red;}
+            #letrabotao{color: white;
+            font-size: 20px;}

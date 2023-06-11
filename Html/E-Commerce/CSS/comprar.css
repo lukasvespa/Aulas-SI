@@ -1,0 +1,51 @@
+/*------------------------------------------PRODUTO------------------------------------------------*/
+*{margin: 0; padding: 0;}
+html,body{height: 100%; background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);}
+
+nav{float: left;}
+    h4{margin-left: 15%;}
+
+table{border-color: grey;
+        margin-left: 15%;}
+
+/*--------------------------------------FORMULARIO--------------------------------------------*/
+
+main{float: left;}
+
+    #botao{margin-left: 370px;}
+
+    #botao-final{margin-left: 370px;
+    margin-top: 4px;}
+
+    #nome{margin-left: 200px;}
+        #barra-nome{border-style: solid;
+            border-radius: 15px;}
+
+    #email{margin-left: 200px;}
+        #barra-email{margin-left: 80px;
+            border-style: solid;
+            border-radius: 15px;}
+    
+    #senha{margin-left: 200px;}
+        #barra-senha{margin-left: 75px;
+            border-style: solid;
+            border-radius: 15px;}
+    
+    #telefone{margin-left: 200px;}
+        #barra-telefone{margin-left: 60px;
+            border-style: solid;
+            border-radius: 15px;}
+
+/*---------------------------------------------QR/PIX--------------------------------------------*/
+
+aside{float: right;
+     margin-right: 200px;}
+
+h3{margin-top: 2%; margin-left: 30%;
+    color:blue;}
+
+#barra-pix{margin-left: 25%;}
+
+/*--------------------------------------------------RODAPE----------------------------------------------*/
+
+footer{clear: both;}

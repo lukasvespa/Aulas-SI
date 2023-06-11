@@ -1,0 +1,65 @@
+*{margin: 0; padding: 0;}
+
+	body,html{ font-size:120%; height: 100%;
+		background-color: black;}
+
+.image{width: 40%;}
+
+/*--------------------------------------------------TITULO-------------------------------------------------*/
+
+	#titulo {height:10%;
+		width: 100%;
+		background-color:rgb(39, 39, 39);
+		font-size: 130%;}
+		#WebHouseStore{margin-top: 0.01%;
+			color:white;}
+
+/*-----------------------------------------------------NAVEGAÇAO-------------------------------------------*/
+
+	#nav{height: 70%;
+		width: 22%;
+		background-color:rgb(77, 76, 76);
+		float: left;
+		font-size: 20px;}	
+		#pesquisa{margin-left: 5%;
+			margin-top: 10px;
+			float: left;}
+			#barradepesquisa{margin-top: 13px;
+				margin-left: 2px;
+				border-style: solid;
+				border-radius: 15px;}
+					#tamanho-nav{height: 80%;}
+
+/*-----------------------------------------------------PRINCIPAL------------------------------------------------*/
+
+	#principal{height: 70%;
+		width: 55%;
+		background-color:rgb(77, 76, 76);
+		float: left;
+		margin-left: 2px}
+		#tabelaPrincipal {margin-top: 10.5%;
+			margin-left: 15%;
+			border-color:black;}
+
+/*------------------------------------------------------ASIDE-----------------------------------------------*/
+
+	#aside{height:70%;
+		width: 22.5%;
+		background-color: rgb(77, 76, 76);
+		float: left;
+		margin-left: 2px;}
+			#todos{color:black}
+			#console{color:black}
+			#smartphone{color:black}
+			#computador{color:black}
+			
+/*-----------------------------------------------------------------RODAPE------------------------------------------*/
+
+	#rodape{height:19.5%;
+		background-color:rgb(77, 76, 76); clear : both;}
+		#botaoEntrarEmContato{margin-top: 10px;
+			border-style: solid;
+			border-radius:15px;
+			background-color: aqua;}
+			#LetraBotao{color: black;
+				font-size: 30px;}

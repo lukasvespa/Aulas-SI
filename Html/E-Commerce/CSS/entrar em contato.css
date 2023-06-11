@@ -1,0 +1,29 @@
+*{margin: 0;}
+html,body{height: 100%;background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);}
+ 
+#nome{margin-left: 35%}
+    #barra-nome{border-style: solid;
+        border-radius: 15px;}
+
+#email{margin-left: 35%}
+    #barra-email{margin-left: 75px;
+        border-style: solid;
+        border-radius: 15px;}
+
+#senha{margin-left:  35%}
+    #barra-senha{margin-left: 70px;
+        border-style: solid;
+        border-radius: 15px;}
+
+#telefone{margin-left: 35%}
+    #barra-telefone{margin-left: 52px;
+        border-style: solid;
+        border-radius: 15px;}
+
+#limpar{margin-top: 15px;
+    color: red;
+    border-style: solid;}
+
+#enviar{margin-left: 47%;
+    margin-top: 15px;}
+    #enviar-cor{color: green;}

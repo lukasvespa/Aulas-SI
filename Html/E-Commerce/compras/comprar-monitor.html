@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web House Store</title>
+
+    <link rel="stylesheet" type="text/css" href="../CSS/comprar.css" media="screen" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <script>
+
+        function compra(){
+            alert("Compra realizada");
+        }
+
+    </script>
+
+</head>
+<body>
+    
+    <center> <h1> Realizar Pagamento </h1> </center> <hr color="black">
+
+    <nav>
+        
+        <table border="5"> <br> 
+            
+            <h4>Preço: R$ 2.048,90</h4>
+            
+            <br><br>
+
+            <td><img src="../imagens/monitor.jpg" height="300" width="370"></td>
+
+        </table>
+
+    </nav>
+
+    <main>
+        <form>
+                <br><br><br>
+                <label for="nome" id="nome"><b> Nome Completo :</b> </label>
+                <input type="text" id="barra-nome" required> <br> <br>
+        
+                <label for="email" id="email"> <b> Email :</b> </label>
+                <input type="email" id="barra-email" required> <br> <br>
+        
+                <label for="senha" id="senha"><b>Senha :</b> </label>
+                <input type="password" id="barra-senha"required> <br> <br>
+        
+                <label for="telefone" id="telefone"><b>Telefone :</b> </label>
+                <input type="tel" id="barra-telefone"required> <br> <br>
+
+                <button type="submit" class="btn btn-dark" id="botao">
+                    Comprar</a>
+                    </button>
+                    <br>
+                    <button type="button" class="btn btn-dark" id="botao-final" onclick="compra()">
+                        <a href="../compras/agradecimento.html">Finalizar</a>
+            
+                    </button>
+        </form>
+
+    </main>
+
+    <aside>
+
+       <center> <h3> Qr Code </h3> </center> 
+
+      <table border="5"> <td> <img src="../imagens/qr code.png"> </td> </table>
+
+        <center> <h3> Chave Pix </h3> 
+
+            <input type="text" id="barra-pix" value="00020101021226880014BR.GOV.BCB.PIX2566qrcodes-pix.gerencianet.com.br/v2/73464ca6726342619184d94074487bbb5204000053039865802BR5914GERENCIANET SA6010OURO PRETO62070503***6304176D">
+
+    </aside>
+
+    <footer>
+        <br>
+        <hr>
+
+        <center> <h1>Web House Store</h1>
+
+    </footer>
+
+</body>
+</html>
